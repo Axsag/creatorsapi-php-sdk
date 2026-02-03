@@ -1,16 +1,23 @@
 {
-    "version": "1.1.2",
-    "description": "CreatorsAPI 1.1.2 PHP SDK",
+    "name": "axsag/amazon-creatorsapi-php-sdk",
+    "description": "Unofficial Amazon Creators API PHP SDK",
+    "type": "library",
     "keywords": [
-        "creatorsapi-php-sdk",
-        "creatorsapi"
+        "amazon",
+        "creatorsapi",
+        "affiliate",
+        "sdk"
     ],
     "homepage": "https://affiliate-program.amazon.com/creatorsapi",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Amazon Creators",
-            "homepage": "https://affiliate-program.amazon.com/creatorsapi"
+            "name": "AXSAG",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Amazon Creators API Team",
+            "role": "Original authors"
         }
     ],
     "require": {
@@ -22,13 +29,19 @@
         "guzzlehttp/psr7": "^1.7 || ^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0 || ^9.0",
+        "phpunit/phpunit": "^9.0 || ^10.0",
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "Amazon\\CreatorsAPI\\v1\\" : "src/" }
+        "psr-4": {
+            "Amazon\\CreatorsAPI\\v1\\": "src/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "Amazon\\CreatorsAPI\\v1\\Test\\" : "test/" }
-    }
+        "psr-4": {
+            "Amazon\\CreatorsAPI\\v1\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
