@@ -1,6 +1,7 @@
 {
     "name": "axsag/amazon-creatorsapi-php-sdk",
-    "description": "Unofficial Amazon Creators API PHP SDK",
+    "description": "CreatorsAPI 1.1.2 PHP SDK",
+    "version": "1.1.2",
     "type": "library",
     "keywords": [
         "amazon",
