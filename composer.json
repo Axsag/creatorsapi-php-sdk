@@ -1,7 +1,7 @@
 {
     "name": "axsag/amazon-creatorsapi-php-sdk",
     "description": "CreatorsAPI 1.1.2 PHP SDK",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "type": "library",
     "keywords": [
         "amazon",
@@ -30,19 +30,13 @@
         "guzzlehttp/psr7": "^1.7 || ^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.0 || ^10.0",
+        "phpunit/phpunit": "^8.0 || ^9.0",
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": {
-            "Amazon\\CreatorsAPI\\v1\\": "src/"
-        }
+        "psr-4": { "Amazon\\CreatorsAPI\\v1\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4": {
-            "Amazon\\CreatorsAPI\\v1\\Test\\": "tests/"
-        }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+        "psr-4": { "Amazon\\CreatorsAPI\\v1\\Test\\" : "test/" }
+    }
 }
