@@ -1,24 +1,16 @@
 {
-    "name": "axsag/amazon-creatorsapi-php-sdk",
-    "description": "CreatorsAPI 1.1.2 PHP SDK",
-    "version": "1.2.0",
-    "type": "library",
+    "version": "1.3.0",
+    "description": "CreatorsAPI 1.2.0 PHP SDK",
     "keywords": [
-        "amazon",
-        "creatorsapi",
-        "affiliate",
-        "sdk"
+        "creatorsapi-php-sdk",
+        "creatorsapi"
     ],
     "homepage": "https://affiliate-program.amazon.com/creatorsapi",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "AXSAG",
-            "role": "Maintainer"
-        },
-        {
-            "name": "Amazon Creators API Team",
-            "role": "Original authors"
+            "name": "Amazon Creators",
+            "homepage": "https://affiliate-program.amazon.com/creatorsapi"
         }
     ],
     "require": {
